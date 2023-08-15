@@ -1,0 +1,33 @@
+<!-- Zaenal Alfian | kodetopia on Github -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bermain Dengan Warna!</title>
+	<style>
+		body {
+			text-align:center;
+			transition: 0.4s;
+		}
+		.berubah1 {
+			background-color: royalblue;
+			color:white;
+			transition: 0.4s;
+		}
+		div {width:25px; height:25px;}
+		.kotakMerah {background-color: red;margin:10px auto;}
+		.kotakHijau {background-color: green;margin:10px auto;}
+		.kotakBiru {background-color: blue;margin:10px auto;}
+	</style>
+</head>
+<body>
+	<h1>Bermain Dengan Warna</h1>
+	<button type="button" id="tUbahWarna">Ubah Warna</button>
+	<br><br>
+
+	<div class="kotakMerah"></div><input type="range" name="Red" min="0" max="255">
+	<div class="kotakHijau"></div><input type="range" name="Green" min="0" max="255">
+	<div class="kotakBiru"></div><input type="range" name="Blue" min="0" max="255">
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
